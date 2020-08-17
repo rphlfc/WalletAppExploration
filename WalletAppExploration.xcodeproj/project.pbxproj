@@ -13,6 +13,11 @@
 		6435865924EAD05800A1884B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6435865824EAD05800A1884B /* Assets.xcassets */; };
 		6435865C24EAD05800A1884B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6435865B24EAD05800A1884B /* Preview Assets.xcassets */; };
 		6435865F24EAD05800A1884B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6435865D24EAD05800A1884B /* LaunchScreen.storyboard */; };
+		6435866724EAD42000A1884B /* TopNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6435866624EAD42000A1884B /* TopNavBarView.swift */; };
+		6435866A24EAD4AC00A1884B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6435866924EAD4AC00A1884B /* CardView.swift */; };
+		6435866C24EAD6D800A1884B /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6435866B24EAD6D800A1884B /* InfoView.swift */; };
+		6435867124EADA0400A1884B /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6435867024EADA0400A1884B /* Info.swift */; };
+		6435867324EAEB9A00A1884B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6435867224EAEB9A00A1884B /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		6435865B24EAD05800A1884B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6435865E24EAD05800A1884B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6435866024EAD05800A1884B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6435866624EAD42000A1884B /* TopNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavBarView.swift; sourceTree = "<group>"; };
+		6435866924EAD4AC00A1884B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		6435866B24EAD6D800A1884B /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		6435867024EADA0400A1884B /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		6435867224EAEB9A00A1884B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +50,7 @@
 		6435864624EAD05700A1884B = {
 			isa = PBXGroup;
 			children = (
+				6435867224EAEB9A00A1884B /* README.md */,
 				6435865124EAD05700A1884B /* WalletAppExploration */,
 				6435865024EAD05700A1884B /* Products */,
 			);
@@ -58,6 +69,8 @@
 			children = (
 				6435865224EAD05700A1884B /* AppDelegate.swift */,
 				6435865424EAD05700A1884B /* SceneDelegate.swift */,
+				6435866824EAD42700A1884B /* Views */,
+				6435866D24EAD9E200A1884B /* Models */,
 				6435865624EAD05700A1884B /* ContentView.swift */,
 				6435865824EAD05800A1884B /* Assets.xcassets */,
 				6435865D24EAD05800A1884B /* LaunchScreen.storyboard */,
@@ -73,6 +86,24 @@
 				6435865B24EAD05800A1884B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6435866824EAD42700A1884B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6435866924EAD4AC00A1884B /* CardView.swift */,
+				6435866624EAD42000A1884B /* TopNavBarView.swift */,
+				6435866B24EAD6D800A1884B /* InfoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6435866D24EAD9E200A1884B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6435867024EADA0400A1884B /* Info.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +166,7 @@
 			files = (
 				6435865F24EAD05800A1884B /* LaunchScreen.storyboard in Resources */,
 				6435865C24EAD05800A1884B /* Preview Assets.xcassets in Resources */,
+				6435867324EAEB9A00A1884B /* README.md in Resources */,
 				6435865924EAD05800A1884B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,7 +180,11 @@
 			files = (
 				6435865324EAD05700A1884B /* AppDelegate.swift in Sources */,
 				6435865524EAD05700A1884B /* SceneDelegate.swift in Sources */,
+				6435866724EAD42000A1884B /* TopNavBarView.swift in Sources */,
 				6435865724EAD05700A1884B /* ContentView.swift in Sources */,
+				6435866C24EAD6D800A1884B /* InfoView.swift in Sources */,
+				6435866A24EAD4AC00A1884B /* CardView.swift in Sources */,
+				6435867124EADA0400A1884B /* Info.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
